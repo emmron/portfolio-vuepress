@@ -9,7 +9,6 @@ sections:
 - type: document
   path: wba
   label: test
-  match: "**/*"
 - type: document
   path: portfolio/index.md
   label: Homepage
