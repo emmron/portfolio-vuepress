@@ -13,5 +13,19 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: dob
+  type: datetime
+  label: Dob
+  description: vvvv
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: heading
+  type: text
+  config:
+    required: false
+  label: heading
 pages:
 - portfolio/index.md
